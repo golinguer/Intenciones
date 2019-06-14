@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:onClick="pgWeb"
+        android:text="Abrir pagina web"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:onClick="mandarCorreo"
+        android:text="mandar correo"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:onClick="llamadaTelefono"
+        android:text="llamar por tel"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:onClick="googleMaps"
+        android:text="Google maps"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:onClick="tomarFoto"
+        android:text="tomar foto"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+</LinearLayout>
